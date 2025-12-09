@@ -136,7 +136,6 @@ export default function decorate(block) {
       if (item.linkTitle) a.title = item.linkTitle;
       if (item.linkTarget) a.target = item.linkTarget;
       if (item.linkStyle) a.classList.add(item.linkStyle);
-      if (item.custombuttonIcon) a.setAttribute('data-icon', item.custombuttonIcon);
       buttonWrap.appendChild(a);
       moveClassToTargetedChild(block, a);
       content.appendChild(buttonWrap);
