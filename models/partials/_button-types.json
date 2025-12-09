@@ -1,0 +1,20 @@
+{
+  "options": [
+    {
+      "name": "Link",
+      "value": "link"
+    },
+    {
+      "name": "Download",
+      "value": "download"
+    },
+    {
+      "name": "Email",
+      "value": "email"
+    },
+    {
+      "name": "Telephone",
+      "value": "telephone"
+    }
+  ]
+}

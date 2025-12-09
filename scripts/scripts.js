@@ -6,6 +6,7 @@ import {
   decorateSections,
   decorateBlocks,
   decorateTemplateAndTheme,
+  getMetadata,
   waitForFirstImage,
   loadSection,
   loadSections,
@@ -25,7 +26,7 @@ export function moveAttributes(from, to, attributes) {
   attributes.forEach((attr) => {
     const value = from.getAttribute(attr);
     if (value) {
-      to?.setAttribute(attr, value);
+      to.setAttribute(attr, value);
       from.removeAttribute(attr);
     }
   });
@@ -69,6 +70,10 @@ function buildAutoBlocks() {
     // eslint-disable-next-line no-console
     console.error('Auto Blocking failed', error);
   }
+}
+
+export function generateUUID() {
+  return Math.floor(1e3 + Math.random() * 9e3);
 }
 
 /**
@@ -121,8 +126,11 @@ async function loadLazy(doc) {
   const element = hash ? doc.getElementById(hash.substring(1)) : false;
   if (hash && element) element.scrollIntoView();
 
-  loadHeader(doc.querySelector('header'));
-  loadFooter(doc.querySelector('footer'));
+  const template = getMetadata('template');
+  if (template !== 'library') {
+    loadHeader(doc.querySelector('header'));
+    loadFooter(doc.querySelector('footer'));
+  }
 
   loadCSS(`${window.hlx.codeBasePath}/styles/lazy-styles.css`);
   loadFonts();

@@ -1,2 +1,3 @@
 helix-importer-ui
-dompurify.min.js
+scripts/global/libs/
+node_modules/

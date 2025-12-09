@@ -2,7 +2,8 @@
   {
     "id": "main",
     "components": [
-      "section"
+      "section",
+      "marginal"
     ]
   },
   {
@@ -11,11 +12,29 @@
       "text",
       "image",
       "button",
+      "custom-button",
       "title",
       "hero",
       "cards",
       "columns",
-      "fragment"
+      "fragment",
+      "articlefeed",
+      "carousel",
+      "accordion",
+      "download",
+      "teaser",
+      "video",
+      "gallery",
+      "event-teaser",
+      "framed-grid",
+      "teaser-list",
+      "filters"
+    ]
+  },
+  {
+    "id": "accordion",
+    "components": [
+      "accordionitem"
     ]
   },
   {
@@ -37,6 +56,18 @@
       "image",
       "button",
       "title"
+    ]
+  },
+  {
+    "id": "filters",
+    "components": [
+      "filter-item"
+    ]
+  },
+  {
+    "id": "framed-grid",
+    "components": [
+      "framed-grid-item"
     ]
   }
 ]

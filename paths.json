@@ -1,10 +1,17 @@
 {
   "mappings": [
-    "/content/aem-boilerplate/:/",
-    "/content/aem-boilerplate/configuration:/.helix/config.json",
-    "/content/aem-boilerplate/metadata:/metadata.json"
+    "/content/aemfeboot/:/",
+    "/content/aemfeboot/configuration:/.helix/config.json",
+    "/content/aemfeboot.resource/query-index.json:/query-index.json",
+    "/content/aemfeboot.resource/us-en/query-index.json:/us-en/query-index.json",
+    "/content/aemfeboot.resource/de-de/query-index.json:/de-de/query-index.json",
+    "/content/aemfeboot/metadata:/metadata.json",
+    "/content/aemfeboot/redirects:/redirects.json",
+    "/content/aemfeboot/api/authors.json",
+    "/content/aemfeboot/api/dictionary.json"
   ],
   "includes": [
-    "/content/aem-boilerplate/"
+    "/content/aemfeboot/",
+    "/content/dam/"
   ]
 }

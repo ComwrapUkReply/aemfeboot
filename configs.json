@@ -1,0 +1,26 @@
+{
+  "projectType": "EDS_UE",
+  "colors": [],
+  "fonts": [],
+  "dependencies": [],
+  "libraries": [
+    "Nice-select",
+    "Nice-tag",
+    "Nice-text",
+    "Plyr",
+    "Swiper"
+  ],
+  "samples": [
+    "Accordion",
+    "Article feed",
+    "Event Teaser",
+    "Filter-item",
+    "Filters",
+    "Framed Grid",
+    "Teaser List"
+  ],
+  "authorUrl": "https://author-p24706-e491522.adobeaemcloud.com/",
+  "organization": "ComwrapReply",
+  "project": "aemfeboot",
+  "aiRules": true
+}
