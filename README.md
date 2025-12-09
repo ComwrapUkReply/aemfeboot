@@ -2,8 +2,8 @@
 Your project's description...
 
 ## Environments
-- Preview: https://main--aemfeboot--ComwrapReply.aem.page/
-- Live: https://main--aemfeboot--ComwrapReply.aem.live/
+- Preview: https://main--aemfeboot--ComwrapukReply.aem.page/
+- Live: https://main--aemfeboot--ComwrapukReply.aem.live/
 
 ## Documentation
 
