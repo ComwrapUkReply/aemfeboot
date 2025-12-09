@@ -61,6 +61,15 @@
       }
     ],
     "filters": [
-    ]
-  }
-  
+      {
+        "id": "marginal",
+        "components": [
+          "text",
+          "image",
+          "button",
+          "custom-button",
+          "title"
+        ]
+    }
+  ]
+}

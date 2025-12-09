@@ -32,6 +32,16 @@
     ]
   },
   {
+    "id": "marginal",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "custom-button",
+      "title"
+    ]
+  },
+  {
     "id": "accordion",
     "components": [
       "accordionitem"
