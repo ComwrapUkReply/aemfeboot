@@ -317,22 +317,6 @@
           }
         },
         {
-          "title": "List Teaser",
-          "id": "list-teaser",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/block/v1/block",
-                "template": {
-                  "name": "List Teaser",
-                  "model": "list-teaser",
-                  "teasersTitleElement": "h3"
-                }
-              }
-            }
-          }
-        },
-        {
           "title": "Teaser List",
           "id": "teaser-list",
           "plugins": {
